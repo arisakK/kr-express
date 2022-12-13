@@ -4,6 +4,6 @@ import { CurrenciesService } from './currencies.service';
 
 @Module({
   controllers: [CurrenciesController],
-  providers: [CurrenciesService]
+  providers: [CurrenciesService],
 })
 export class CurrenciesModule {}
